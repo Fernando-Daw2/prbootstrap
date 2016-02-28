@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+      .distri2{
+          font-size: 18px;
+      }
+      .distri{
+          color: red;
+          background-color: white;
+          font-size: 18px;
+      }
+      .frame{
+          width: 100%;
+          height: 1000px;
+      }
+      #impor{
+          color: yellow;
+      }
+      .caro{
+          width: 100%;
+            height: auto;
+      }
+      .icono{
+          clear: left;
+          position: absolute;
+          top: 8%;
+          left: 70%;
+          width: 20%;
+      }
+      #section1 {padding-top:50px;height:500px;color: #fff; }
+      #section2 {padding-top:50px;height:500px;color: #fff;}
+      #section3 {padding-top:50px;height:500px;color: #fff;}
+      #section41 {padding-top:50px;height:500px;color: #fff;}
+      #section42 {padding-top:50px;height:500px;color: #fff;}
+      p{font-size: 12px;}
+  body {
+      background-image: url(imagenes/background.jpg);
+  }
+ 
+  </style>
+    <script>
+    $(document).ready(function() {
+          $(".tac").slideUp(0);
+           $(".haz").slideUp(0);
+          
+	$(".distri").click(function() {
+        
+
+        $(".haz").stop();
+          $(".tac").stop();
+             $(".tac").animate({
+
+                 
+                height: "toggle" 
+        
+        },500)
+            
+       
+        s });
+        $(".distri2").click(function() {
+        
+
+        $(".haz").stop();
+          $(".tac").stop();
+             $(".tac").animate({
+
+                 
+                height: "toggle" 
+        
+        },500)
+            
+       
+         });
+          
+          
+ 
+    });
+    
+    </script>
+</head>
+<body>
+      <div>
+        <img src="imagenes/slide14.jpg"  class="caro">
+        <img src="imagenes/Cabecera.png" class="icono" >
+      </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" style="color:yellow;">DIAMOND DOGES</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">¿Como empezar en Airsoft?</a></li>
+          <li><a href="#section2">Tiendas</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+          
+      </div>
+        <div class="tac" >
+            <p><span class="distri2" style="color:red;">X</span></p>
+ <iframe class="frame" src="http://www.distripol.com/"></iframe></div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>¿Como empezar en Airsoft?</h1>
+  <h2>Proteccion</h2>
+  <p>Lo mas importante para empezar y seguir es tener buena proteccion.<br>Es esencial el uso de  gafas de proteccion, no son extremadamente caras y se dispone de distintos tipos tanto si llevas gafas de ver como si no.<br>
+    En el caso de mascara , al contrario de las gafas, es opcional pero se recomienda usarla para proteger los dientes. </p>
+    <h2>Replica</h2>
+  <p>Hay muchas replicas de diferentes marcas , mi  recomendacion personal es comprarse una replica nueva de G&G o Tokio Marui,<br> como todo en la vida cada uno sabe lo que se puede permitir y el presupuesto que tiene y desde mi punto de vista y de expertos es destinar mas a la replica del presupuesto que al loadout <br>
+    <span id="impor">Importante tener las replicas registradas para no tener problemas judiciales</span></p>
+     <h2>Donde y como jugar</h2>
+  <p>Hay muchos equipos en España , en Aragon uno de los equipos mas grandes e influyente es <a href="https://www.facebook.com/defensoresdezaragozaairsoft/?fref=ts">Defensores de Zaragoza</a> en su facebook ponen partidas de airsoft que organizan ellos.<br>O con la <a href="https://www.facebook.com/Federacion-Aragonesa-de-airsoft-695969893778442/">Federacion Aragonesa de Airsoft</a> <br>
+<span id="impor">Importante conocer las reglas del airsoft , recodad que esto es un deporte donde nadie llebas las muertes , ni victorias es un deporte para disfrutar</span>  </p>
+    
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Tiendas</h1>
+  <p>En Zaragoza disponemos de varias tiendas , en la que mas he comprado y conozco es <span class="distri">Distri<span style="color:black;">pol</span></span></p>
+     
+       
+    
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section41" class="container-fluid">
+  <h1>Section 4 Submenu 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section42" class="container-fluid">
+  <h1>Section 4 Submenu 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+</body>
+</html>
