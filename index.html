@@ -10,105 +10,11 @@
    
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-        .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;}
-      #video{
-             width: 70%;
-          height: 500px;
-      margin: auto;
-      }
-      .id{
-          
-          width: auto !important;
-          height: auto !important;
-          
-      }
-      .distri2{
-          font-size: 18px;
-      }
-      .distri{
-          color: red;
-          background-color: white;
-          font-size: 18px;
-      }
-      .frame{
-          width: 100%;
-          height: 1000px;
-      }
-      #impor{
-          color: yellow;
-      }
-      .caro{
-        position: absolute;
-          top: 7%;
-
-          width: 100%;
-            height: auto;
-      }
-      .icono{
-          clear: left;
-          position: absolute;
-          top: 10%;
-          left: 70%;
-          width: 20%;
-      }
-      #section1 {padding-top:50px;height:100%;color: #fff;}
-      #section2 {padding-top:50px;height:100%;color: #fff;}
-      #section3 {padding-top:50px;height:100%;color: #fff;}
-      #section41 {padding-top:50px;height:100%;color: #fff;}
-      #section42 {padding-top:50px;height:100%;color: #fff;}
-      p{font-size: 100%; }
-  body {
-      background-image: url(imagenes/background.jpg);
-  }
- .item
-      {
-          align-content:center; 
-      }
-  </style>
-    <script>
-    $(document).ready(function() {
-          $(".tac").slideUp(0);
-           $(".haz").slideUp(0);
-          
-	$(".distri").click(function() {
-        
-
-        $(".haz").stop();
-          $(".tac").stop();
-             $(".tac").animate({
-
-                 
-                height: "toggle" 
-        
-        },500)
-            
-       
-        s });
-        $(".distri2").click(function() {
-        
-
-        $(".haz").stop();
-          $(".tac").stop();
-             $(".tac").animate({
-
-                 
-                height: "toggle" 
-        
-        },500)
-            
-       
-         });
-          
-          
- 
-    });
-    
-    </script>
+<link rel="stylesheet" href="css/style.css">
 </head>
+    <style>  body {
+      background-image: url(imagenes/background.jpg);
+  }</style>
 <body>
       <div style="padding-top:40%;height:100%;color: #fff;">
         <img src="imagenes/slide14.jpg"  class="caro">
@@ -131,7 +37,7 @@
             <li><a href="#section3">¿Que arma comprar?</a></li>
           <li><a href="#section2">Tiendas</a></li>
           
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Extras <span class="caret"></span></a>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Nosotros <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#section41">Multimedia</a></li>
               <li><a href="#section42">Contacto</a></li>
@@ -175,7 +81,7 @@
   <h1>Tiendas</h1>
     
   <p>En Zaragoza disponemos de varias tiendas , en la que mas he comprado y conozco es <span class="distri">Distri<span style="color:black;">pol</span></span></p>
-      <p>Tambien se dispone de varias tiendas online como <a href="http://www.taiwangun.com/">taiwangun</a> entre otras</p>
+      <p>Tambien se dispone de varias tiendas online como <a href="http://www.taiwangun.com/en" target="_blank">taiwangun</a> entre otras</p>
        
     
 </div>
@@ -225,14 +131,19 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-    <div style="margin-left:20%;"> <iframe id="video"  src="https://www.youtube.com/embed/hyNtIFZRtSQ" frameborder="0" allowfullscreen></iframe>
+    <div style="margin-left:0;margin-right:0"> <iframe id="video"  src="https://www.youtube.com/embed/hyNtIFZRtSQ" frameborder="0" allowfullscreen></iframe>
 </div></div>
   
 <div id="section42" class="container-fluid">
-  <h1>Section 4 Submenu 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <h1>Contancta con nosotros <a href="https://www.facebook.com/groups/461557554039735/?fref=ts" target="_blank"><img src="imagenes/imagen_facebook_icono_01.gif" width="30px"></a> <a href="http://diamonddogesairsoft.esy.es/" target="_blank"><img src="imagenes/Cabecera.png" width="100px"></a></h1>
+    <div id="contact">
+        <form>
+        <table>
+            <td style="color:yellow">Nombre <input type="text" width="100%"></td><tr></tr><tr></tr>
+            <td style="color:yellow">Email <input type="text" width="100%" style="margin-left:7%"></td><tr></tr>
+            <td style="color:yellow">Mensaje</td><tr></tr><td></td><tr></tr><td><textarea></textarea></td><tr></tr><td><input type="submit" value="Enviar D.Mensaje" style="color:yellow;background-color:black"></td></table>
+   </form></div>
 </div>
-
+ <script src="js/scripts.js"></script>
 </body>
 </html>
